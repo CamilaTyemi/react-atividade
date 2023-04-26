@@ -1,0 +1,45 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.box {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(162, 162, 242);
+  border-radius: 20px;
+  width: 70%;
+}
+
+.nome {
+  font-size: 30px;
+  color: azure;
+}
+
+.numero {
+  font-size: 40px;
+  color: rgb(140, 0, 164);
+}
+
+.button {
+  background-color: rgb(133, 18, 255);
+  border-radius: 40px;
+  color: rgb(31, 31, 83);
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(57, 12, 104);
+  color: aliceblue;
+}
